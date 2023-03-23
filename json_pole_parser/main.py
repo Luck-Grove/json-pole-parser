@@ -55,7 +55,7 @@ def write_csv(name: str, results_list: list[list[str, str]]) -> None:
 
 @app.command()
 def parse(filename: str):
-    with open(filename) as f:
+    with open(filename, encoding="utf-8") as f:
         results = file_parse(f)
 
     list_results = dict_to_list(results)
