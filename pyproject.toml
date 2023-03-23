@@ -10,7 +10,7 @@ packages = [{include = "json_pole_parser"}]
 json-pole-parser = "json_pole_parser.main:app"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.7"
 typer = "^0.7.0"
 
 
