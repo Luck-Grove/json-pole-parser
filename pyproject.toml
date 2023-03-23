@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "json-pole-parser"
+version = "0.1.0"
+description = ""
+authors = ["Tyler Etheridge <tylerjetheridge98@gmail.com>"]
+readme = "README.md"
+packages = [{include = "json_pole_parser"}]
+
+[tool.poetry.scripts]
+json-pole-parser = "json_pole_parser.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.7.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
